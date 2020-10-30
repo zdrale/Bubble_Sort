@@ -1,6 +1,6 @@
 def bubble_sort(arr)
   unsorted = arr.length - 1
-  until unsorted.zero? 
+  until unsorted.zero?
     arr.each_with_index do |target_value, target_index|
       if target_index < arr.length - 1 && target_value > arr[target_index + 1]
         arr[target_index] = arr[target_index + 1]
