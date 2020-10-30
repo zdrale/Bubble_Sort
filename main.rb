@@ -1,17 +1,18 @@
-def bubble_sort (arr)
-  length = arr.length()
-  for i in 0...length
-    for j in 0...length-1
-      if arr[j] > arr[j+1]
-        arr[j], arr[j+1] = arr[j+1], arr[j]
+def bubble_sort(arr)
+  unsorted = arr.length - 1
+  until unsorted == 0
+    arr.each_with_index do |target_value, target_index|
+      if target_index < arr.length-1 && target_value > arr[target_index+1]
+        arr[target_index] = arr[target_index+1]
+        arr[target_index+1] = target_value
       end
     end
+    unsorted -= 1
   end
   arr
-end  
-p bubble_sort([3, 1, 2, 4, 10, 9, 7, 8, 5, 6])
+end
 
-
+p bubble_sort([8,2,10,13,3,1,5,9])
 
 def bubble_sort_by(arr)
   arr.each_with_index do |_value, _i|
