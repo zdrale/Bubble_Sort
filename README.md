@@ -12,7 +12,7 @@ We worked on all the requirements given on this project.
 
 - Ruby
 
-##Getting Started
+## Getting Started
 
 Just clone this repo and and navigate to the folder.
 
@@ -23,9 +23,6 @@ Navigate to the bubble_sort folder
 In your terminal run ruby main.rb
 You are successful to get a local copy up and running.
 
-## Live Demo
-
-[Live Demo Link](https://raw.githack.com/zdrale/Responsive-Web-Page/master/index.html)
 
 ## Authors
 
