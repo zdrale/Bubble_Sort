@@ -2,7 +2,7 @@
 
 > This is simple sorting algorith that sorts array. Main idea is to "bubble" biggest number at end of array in each itteration.
 
-![screenshot](images/screenshot.png)
+![screenshot](Images/screenshot.png)
 
 This project is the first one in the Ruby module at Microverse. Main goal was to build develop sorting algorithm.
 
